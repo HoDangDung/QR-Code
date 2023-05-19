@@ -27,4 +27,19 @@ body .container .card .card-body h4 {
 body .container .card .card-body p {
   font-weight: 400;
   color: hsl(220, 15%, 55%);
+}
+
+@media only screen and (max-width: 375px) {
+  body {
+    max-width: 375px;
+    min-height: 100vh;
+  }
+  body .container .card {
+    margin: auto;
+    width: 320px;
+    height: 499px;
+  }
+  body .container .card .card-body h4 {
+    width: 255px;
+  }
 }/*# sourceMappingURL=styles.css.map */

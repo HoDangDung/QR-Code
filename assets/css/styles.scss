@@ -34,3 +34,22 @@ body {
         }
     }
 }
+
+@media only screen and (max-width: 375px) {
+    body {
+        max-width: 375px;
+        min-height: 100vh;
+        .container {
+            .card {
+                margin: auto;
+                width: 320px;
+                height: 499px;
+                .card-body{
+                   h4{
+                    width: 255px;
+                   }
+                }
+            }
+        }
+    }
+}
